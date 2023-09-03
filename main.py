@@ -3,7 +3,7 @@ contatos = []
 
 #adicionar contato
 def incluirContato():
-    nome = input("Digite o nome do contato: ")
+    nome = input("Digite o nome do contato: ").upper()
     telefone = input("Digite o número telefone do contato: ")
     contato = {"Nome": nome, "Telefone": telefone}
     contatos.append(contato)
